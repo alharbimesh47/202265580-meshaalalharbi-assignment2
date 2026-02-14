@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meshaal Alharbi - Portfolio</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <nav>
+    <h1>Meshaal Alharbi</h1>
+    <ul>
+      <li><a href="#about">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><button id="themeToggle">Dark Mode</button></li>
+    </ul>
+  </nav>
+
+  <section id="about">
+    <h2>About Me</h2>
+    <p id="greeting"></p>
+    <p>
+        I'm Meshaal Alharbi, a junior Software Engineering student passionate about web development.
+        I enjoy building clean, responsive websites and improving my coding skills through projects. 
+        My goal is to grow as a developer and create useful digital solutions.
+    </p>
+  </section>
+
+  <section id="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+        <img src="assets/images/project1.png" alt="KFUPM Schedule Root Generator">
+        <h3>KFUPM real-time map</h3>
+        <p> A KFUPM campus map based on studens schedule, it draws the route of student between classes for each day</p>
+      </div>
+      <div class="project-card">
+        <img src="assets/images/project2.png" alt="Food Ordering Application">
+        <h3>Ordering-Application </h3>
+        <p>A simple food ordering app developed to help in online ordering process, and implemented using JavaFX.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact">
+    <h2>Contact</h2>
+    <form id="contactForm">
+    <input name="name" type="text" placeholder="Full Name" required>
+    <input name="email" type="email" placeholder="Email" required>
+    <textarea name="message" placeholder="Type a message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <script src="js/script.js"></script>
+</body>
+</html>
