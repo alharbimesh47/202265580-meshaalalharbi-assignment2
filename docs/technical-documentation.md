@@ -4,8 +4,8 @@
 This project is a responsive portfolio website built with HTML, CSS, and JavaScript. It includes About, Projects, and Contact sections. Assignment 2 improves Assignment 1 by adding more interactive features and better user feedback.
 
 ## Technologies Used
-- HTML5
-- CSS3
+- HTML
+- CSS
 - JavaScript
 
 ## Interactive Features
