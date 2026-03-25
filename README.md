@@ -1,81 +1,35 @@
 # Meshaal Alharbi - Portfolio Website
 
-A simple personal portfolio website showcasing my projects and skills as a Software Engineering student.
-
-## About This Project
-
-This is my first portfolio website built using HTML, CSS, and JavaScript. It includes information about me, my projects, and a contact form. The website is responsive and works on desktop, tablet, and mobile devices.
+This project is a personal portfolio website developed for SWE 363 Assignment 2. It builds on Assignment 1 by adding more interactivity, better user feedback, and improved user experience.
 
 ## Features
+- About section with a greeting message
+- Projects section with category filter buttons
+- Live search for projects
+- Show and hide project details
+- Contact form with success message
+- Dark and light mode toggle using localStorage
+- Responsive design for desktop, tablet, and mobile
 
-- **Responsive Design**: Works on all screen sizes
-- **Dark/Light Mode**: Toggle between themes with a button in the navigation
-- **Three Main Sections**:
-  - About Me: Brief introduction
-  - Projects: Two project cards with descriptions
-  - Contact: Simple contact form
-- **Smooth Scrolling**: Navigation links scroll smoothly to sections
-
-## Technologies Used
-
-- HTML5
-- CSS3
-- JavaScript
-- Git & GitHub
-
-## How to Run Locally
-
-1. Download or clone this repository
-2. Open the `index.html` file in your web browser
-3. That's it! No server needed.
-
-## File Structure
-```
-assignment-1/
-├── index.html          # Main HTML file
+## Folder Structure
+assignment-2/
+├── README.md
+├── index.html
 ├── css/
-│   └── styles.css      # All styling
+│   └── styles.css
 ├── js/
-│   └── script.js       # JavaScript functionality
+│   └── script.js
 ├── assets/
-│   └── images/         # Project images
+│   └── images/
 ├── docs/
 │   ├── ai-usage-report.md
 │   └── technical-documentation.md
-└── README.md
-```
+└── .gitignore
 
-## Features Implemented
+## How to Run
+1. Download or clone the repository
+2. Open the project folder in VS Code
+3. Open `index.html` in your browser or use Live Server
 
-Responsive layout using CSS Grid and Flexbox
-Dark/Light theme toggle with localStorage
-Form validation
-Smooth scrolling navigation
-Mobile-friendly design
-
-## AI Tools Used
-
-I used Claude AI to help with:
-- Code structure and organization
-- CSS styling suggestions
-- Debugging errors
-- Learning best practices
-
-Full details in `docs/ai-usage-report.md`
-
-## Future Improvements
-
-- Add more projects
-- Include a skills section
-- Add hyperlinks to personal accounts
-- Connect contact form to a backend
-
-## Contact
-
-- **Name**: Meshaal Alharbi
-- **University**: KFUPM
-- **Major**: Software Engineering
-
----
-
-*This project was created as Assignment 1 for my web development course.*
+## AI Usage Summary
+AI tools were used to help with structure, interactive features, styling improvements, and debugging. More details are available in `docs/ai-usage-report.md`.
