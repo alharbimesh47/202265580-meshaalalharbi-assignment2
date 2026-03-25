@@ -14,19 +14,19 @@ It is an improved version of Assignment 1 with added interactivity and better us
 - Responsive design for desktop, tablet, and mobile devices
 
 ## Folder Structure
-assignment-1/
-├── index.html          # Main HTML file
-├── css/
-│   └── styles.css      # All styling
-├── js/
-│   └── script.js       # JavaScript functionality
-├── assets/
-│   └── images/         # Project images
-├── docs/
-│   ├── ai-usage-report.md
-│   └── technical-documentation.md
-└── README.md
-
+assignment-2/
+├── index.html  
+├── css/  
+│   └── styles.css  
+├── js/  
+│   └── script.js  
+├── assets/  
+│   └── images/  
+├── docs/  
+│   ├── ai-usage-report.md  
+│   └── technical-documentation.md  
+├── README.md  
+└── .gitignore  
 
 ## How to Run Locally
 1. Download or clone the repository  
